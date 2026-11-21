@@ -1,7 +1,2 @@
-<<<<<<< HEAD
 node_modules
-.env
-=======
-node_modules
-.env
->>>>>>> a1d3b14fb08c4a54aaacb619c527442bab7808b0
+.envtype 
