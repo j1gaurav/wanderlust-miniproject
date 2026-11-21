@@ -139,7 +139,6 @@ app.get("/hello", (req, res) => {
 app.listen(5000, () => {
   console.log("🚀 Server started on port 5000");
 });
-=======
 console.log("SERVER FILE UPDATED");
 require("dotenv").config();
 
