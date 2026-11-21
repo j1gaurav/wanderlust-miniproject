@@ -140,15 +140,11 @@ app.listen(5000, () => {
   console.log("🚀 Server started on port 5000");
 });
 console.log("SERVER FILE UPDATED");
-require("dotenv").config();
 
-const express = require("express");
-const mongoose = require("mongoose");
 const cors = require("cors");
 const Review = require("./models/Review");
 const Inquiry = require("./models/Inquiry");
 
-const app = express();
 
 app.use(cors());
 app.use(express.json());
